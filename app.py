@@ -19,7 +19,9 @@ st.markdown(
 
 st.header('Análisis de Datos de Vehículos')
 
-car_data = pd.read_csv('C:/Users/MonoTono2/Documents/Curso_TripleTen/Proyectos/Sprint_7/GitHub_Ejercicios/vehicles_us.csv')
+#car_data = pd.read_csv('C:/Users/MonoTono2/Documents/Curso_TripleTen/Proyectos/Sprint_7/GitHub_Ejercicios/vehicles_us.csv')
+car_data = pd.read_csv('vehicles_us.csv')
+
 
 show_dataframe = st.checkbox('Mostrar tabla completa del conjunto de datos')
 
